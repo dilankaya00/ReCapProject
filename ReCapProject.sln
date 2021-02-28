@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{EB7F145F-A2E0-47FB-BDDE-DC396B5146EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{886E1F61-E3C3-47E3-8F81-C1CC31AA3C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{033482B6-DBC3-4C76-A0C0-4588B85F7B18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{795C9DFE-C2F9-40B1-B152-8B055C604B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleUI", "ConsoleUI", "{D5DFD11B-18F5-47BB-9396-D170A5C5A9E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{271EFD4F-E739-4161-AB2F-960E032DBF93} = {033482B6-DBC3-4C76-A0C0-4588B85F7B18}
+		{FE41AF31-0DED-42E2-A3C4-4642866FF8DC} = {886E1F61-E3C3-47E3-8F81-C1CC31AA3C31}
+		{15D9A8EF-44B5-4D7B-9EF8-EF241C2D2657} = {795C9DFE-C2F9-40B1-B152-8B055C604B5C}
+		{EB7F145F-A2E0-47FB-BDDE-DC396B5146EA} = {D5DFD11B-18F5-47BB-9396-D170A5C5A9E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70A96EFB-4C79-4451-956B-6ABE0498E122}
